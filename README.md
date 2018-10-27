@@ -6,5 +6,5 @@ A cuda-test based on cuda-z
 Test device 0:  
 $./cuda -d 0  
   
-![Alt text](img/device0.jpg)
+![aaa](img/device0.png)
 
