@@ -1128,7 +1128,7 @@ int main(int argc, char **argv){
 		printf("device %d, %s, driver version:%s\n\n", num, CZ_info.deviceName, CZ_info.drvVersion);
 		printf("H2D pin:%f GiB/s\n", CZ_info.band.copyHDPin/1024/1024);
 		printf("D2H pin:%f GiB/s\n", CZ_info.band.copyDHPin/1024/1024);
-		printf("D2D    :%f GiB/s\n\n", CZ_info.band.copyDD/1024/1024);
+		printf("D2D    :%f GiB/s\n", CZ_info.band.copyDD/1024/1024);
 		printf("sp     :%f Gflop/s\n", CZ_info.perf.calcFloat/1000/1000);
 		printf("dp     :%f Gflop/s\n", CZ_info.perf.calcDouble/1000/1000);
 		printf("64-bit :%f Gflop/s\n", CZ_info.perf.calcInteger64/1000/1000);
